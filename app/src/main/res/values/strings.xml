@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SakurAni Manga Collection</string>
+    <string name="action_settings">Settings</string>
+    <string name="mainActivity_ValueOfCollectionHeadline">Wert der Sammlung</string>
+    <string name="addNewItem_NameOfItem">Name des Mangas</string>
+    <string name="addNewItem_OriginalPrice">Ursprünglicher Preis</string>
+    <string name="addNewItem_Isbn">ISBN</string>
+    <string name="eurosign">€</string>
+    <string name="addNewItem_NameOfAuthor">Autor</string>
+    <string name="addNewItem_Year">Erscheinungsjahr</string>
+    <string name="addNewItem_Title">Einen Manga hinzufügen</string>
+    <string name="mainActivity_Title">Meine Sammlung</string>
+</resources>
