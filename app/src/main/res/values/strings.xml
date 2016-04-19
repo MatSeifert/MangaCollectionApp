@@ -10,4 +10,21 @@
     <string name="addNewItem_Year">Erscheinungsjahr</string>
     <string name="addNewItem_Title">Einen Manga hinzufügen</string>
     <string name="mainActivity_Title">Meine Sammlung</string>
+    <string name="addnewitem_saveBook">Speichern</string>
+    <string name="addNewItem_PublishingYear">Erscheinungsjahr</string>
+    <string name="addNewItem_Language">Sprache</string>
+    <string name="addNewItem_Publisher">Verlag</string>
+    <string name="addNewItem_Edition">Auflage</string>
+    <string name="addnewitem_isEbook">E-Book</string>
+    <string name="addNewItem_Painter">Zeichner</string>
+    <string name="addnewitem_button_NameOfAuthor">weiterer Autor</string>
+    <string name="addnewitem_ispartofseries">Teil einer Reihe</string>
+
+    <string-array name="languages">
+        <item>Sprache wählen ...</item>
+        <item>Deutsch</item>
+        <item>Englisch</item>
+        <item>Japanisch</item>
+        <item>andere</item>
+    </string-array>
 </resources>

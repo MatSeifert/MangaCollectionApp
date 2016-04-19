@@ -1,0 +1,66 @@
+<android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:padding="0dp"
+        android:layout_marginStart="-10dp"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingStart="0dp"-->
+            <!--android:paddingEnd="10dp"-->
+            <!--android:drawableStart="@drawable/ic_menu_white_36dp"/>-->
+
+            <Button
+                android:visibility="gone"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar_ButtonBack"
+                android:background="@android:color/transparent"
+                android:layout_centerVertical="true"
+                android:drawableStart="@drawable/ic_arrow_back_white_36dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/headline"
+                android:layout_toEndOf="@+id/toolbar_ButtonBack"
+                android:textSize="24sp"
+                android:layout_centerVertical="true"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/white"
+                tools:text="Title"/>
+
+            <Button
+                android:visibility="gone"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar_ButtonSave"
+                android:background="@android:color/transparent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:drawableStart="@drawable/ic_check_white_36dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>
