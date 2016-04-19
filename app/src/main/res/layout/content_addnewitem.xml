@@ -21,6 +21,7 @@
                 android:layout_centerVertical="true"/>
             <EditText
                 android:layout_width="match_parent"
+                android:id="@+id/addnewitem_input_name"
                 style="@style/FormEditTextStyle"
                 android:layout_height="wrap_content"
                 android:layout_toEndOf="@+id/addnewitem_drawable_NameOfItem"
@@ -48,9 +49,9 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:id="@+id/addnewitem_input_author"
                     android:inputType="textPersonName"
                     android:layout_toEndOf="@+id/addnewitem_drawable_NameOfAuthor"
-                    android:id="@+id/addnewitem_edittext_NameOfAuthor"
                     android:hint="@string/addNewItem_NameOfAuthor"
                     android:layout_margin="10dp"/>
             </RelativeLayout>
@@ -91,7 +92,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
                     android:layout_toEndOf="@+id/addnewitem_drawable_NameOfPainter"
-                    android:id="@+id/addnewitem_edittext_NameOfPainter"
+                    android:id="@+id/addnewitem_input_painter"
                     android:hint="@string/addNewItem_Painter"
                     android:layout_margin="10dp"/>
             </RelativeLayout>
@@ -117,7 +118,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/addnewitem_drawable_PriceOfItem"
-                android:drawableStart="@drawable/ic_book_black_24dp"
+                android:drawableStart="@drawable/ic_euro_symbol_black_24dp"
                 android:paddingStart="10dp"
                 android:paddingEnd="0dp"
                 android:layout_centerVertical="true"/>
@@ -125,6 +126,7 @@
                 android:layout_width="match_parent"
                 style="@style/FormEditTextStyle"
                 android:layout_height="wrap_content"
+                android:id="@+id/addnewitem_input_price"
                 android:inputType="numberDecimal"
                 android:layout_toEndOf="@+id/addnewitem_drawable_PriceOfItem"
                 android:hint="@string/addNewItem_OriginalPrice"
@@ -146,6 +148,7 @@
                 android:layout_width="match_parent"
                 style="@style/FormEditTextStyle"
                 android:layout_height="wrap_content"
+                android:id="@+id/addnewitem_input_year"
                 android:inputType="number"
                 android:layout_toEndOf="@+id/addnewitem_drawable_Year"
                 android:hint="@string/addNewItem_PublishingYear"
@@ -167,6 +170,7 @@
                 android:layout_width="match_parent"
                 style="@style/FormEditTextStyle"
                 android:layout_height="wrap_content"
+                android:id="@+id/addnewitem_input_isbn"
                 android:inputType="number"
                 android:layout_toEndOf="@+id/addnewitem_drawable_Isbn"
                 android:hint="@string/addNewItem_Isbn"
@@ -186,7 +190,7 @@
                 android:layout_centerVertical="true"/>
 
             <Spinner
-                android:id="@+id/addnewitem_languageSpinner"
+                android:id="@+id/addnewitem_spinner_language"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_toEndOf="@+id/addnewitem_drawable_Language"
@@ -211,6 +215,7 @@
                 android:layout_width="match_parent"
                 style="@style/FormEditTextStyle"
                 android:layout_height="wrap_content"
+                android:id="@+id/addnewitem_input_publisher"
                 android:inputType="text"
                 android:layout_toEndOf="@+id/addnewitem_drawable_Publisher"
                 android:hint="@string/addNewItem_Publisher"
@@ -232,6 +237,7 @@
                 android:layout_width="match_parent"
                 style="@style/FormEditTextStyle"
                 android:layout_height="wrap_content"
+                android:id="@+id/addnewitem_input_edition"
                 android:inputType="number"
                 android:layout_toEndOf="@+id/addnewitem_drawable_Edition"
                 android:hint="@string/addNewItem_Edition"

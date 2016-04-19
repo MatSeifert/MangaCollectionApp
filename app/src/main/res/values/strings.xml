@@ -19,6 +19,7 @@
     <string name="addNewItem_Painter">Zeichner</string>
     <string name="addnewitem_button_NameOfAuthor">weiterer Autor</string>
     <string name="addnewitem_ispartofseries">Teil einer Reihe</string>
+    <string name="addnewitem_success">Der Manga wurde deiner Sammlung hinzugefügt!</string>
 
     <string-array name="languages">
         <item>Sprache wählen ...</item>
